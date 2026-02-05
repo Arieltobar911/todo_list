@@ -21,16 +21,17 @@ en esta ocacion tratare de dar lo mejor de mi, gracias por su atencion.
 
 cuenta con 2 funciones en su interior, entre ellas: 
 
-- overTog(): es la encarga de ocular y mostrar el overlay como el formulario en su inerior
-- newTask(): replica la estructura HTML de una tarea promedio, con los titulos y textos introducidos por el usuario
+- **overTog()**: es la encarga de ocular y mostrar el overlay como el formulario en su inerior
+- **newTask()**: replica la estructura HTML de una tarea promedio, con los titulos y textos introducidos por el usuario
 
 ### script.js
 
 cuanta con las funciones mas importantes con respecto al funcionamiento, tales como:
 
-- activeTask(): registra cada tarea (activa) dependiendo en que procedimiento este incluida esta funcion.
-- form.advEnetListener: cancela la recarga de la pagina, ademas de registrar la descripcion y titulo de las tareas del usuario.
-- list.addEventListener: cuenta con delegaciones de eventos para la eliminacion y marcado de cada tarea individualmente.
-- selector.advEnetListener: siendo la seleccion de opciones de filtrado de tareas, unicamente muestra aquellas tareas que cumplan
+- **activeTask()**: registra cada tarea (activa) dependiendo en que procedimiento este incluida esta funcion.
+- **form.addEventListener**: cancela la recarga de la pagina, ademas de registrar la descripcion y titulo de las tareas del usuario.
+- **list.addEventListener**: cuenta con delegaciones de eventos para la eliminacion y marcado de cada tarea individualmente.
+- **selector.addEventListener**: siendo la seleccion de opciones de filtrado de tareas, unicamente muestra aquellas tareas que cumplan
   con el criterio puesto en el filtro, (ej: completadas => todas las tareas completadas)
 
+cualquier error o fallo de logica, estare dispuesto a arreglarlo, proyecto **unicamente con fines de aprendizaje y prueba tecnica**.
