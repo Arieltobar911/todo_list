@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Task manager</title>
+</head>
+<body>
+<!-- Header -->
+  <header>
+    <nav class="sentry">
+      <h1>Task manager</h1>
+    </nav>
+  </header>
+<!-- Formulary and overlay-->
+  <div class="form-overlay bye" id="overlay">
+    <form action="" class="form-container" id="form">
+      <a class="x-btn addForm">X</a>
+      <div class="title">
+        <h2>Add Title</h2>
+        <input type="text" placeholder="Master task" id="title" required>
+      </div>
+      <div class="desc">
+        <h2>Add description</h2>
+        <textarea maxlength="150" placeholder="150 characters max." id="description"></textarea>
+      </div>
+      <button id="enter" type="submit">Submit</button>
+    </form>
+  </div>
+
+<!-- Main content -->
+  <main class="sentry">
+
+    <!-- Search and filters-->
+    <section class="main_content sentry">
+
+      <section class="search sentry">
+        <div class="search-elements sentry">
+          <h2>Your tasks:</h2>
+          <div class="filters sentry">
+            <p class="count">0</p>
+
+            <select name="" id="selector">
+              <option value="all">All Tasks</option>
+              <option value="completed">Completed</option>
+              <option value="active">Active</option>
+            </select>
+
+            <button class="add addForm">+</button>
+          </div>
+        </div>
+      </section>
+      <!-- Tasks list -->
+      <section class="tasks" id="list"></section>
+
+    </section>
+
+  </main>
+
+  <footer></footer>
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
